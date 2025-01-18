@@ -12,6 +12,18 @@ permissions:
   contents: write
 
 jobs:
+  manual-test:
+    runs-on: macos-latest
+    steps:
+      - name: Cache Homebrew packages
+        uses: actions/cache@v4
+        with:
+          path: ~/Library/Caches/Homebrew
+          key: homebrew-packages
+      - uses: actions/checkout@v4
+      - run: brew install skiptools/skip/skip
+      - run: skip android sdk install
+      - run: swift test
   call-workflow:
     uses: skiptools/actions/.github/workflows/skip-framework.yml@main
     #with:
