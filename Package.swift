@@ -9,7 +9,7 @@ import PackageDescription
 let package = Package(
     name: "skip-integ-demo",
     defaultLocalization: "en",
-    platforms: [.iOS(.v17), .macOS(.v14), .tvOS(.v17), .watchOS(.v10), .macCatalyst(.v17)],
+    platforms: [.iOS(.v16), .macOS(.v13), .tvOS(.v16), .watchOS(.v10), .macCatalyst(.v16)],
     products: [
         .library(name: "SkipIntegDemo", type: .dynamic, targets: ["SkipIntegDemo"]),
     ],
