@@ -14,7 +14,7 @@ final class SkipIntegDemoTests: XCTestCase {
         #endif
     }
 
-    func testSkipIntegDemo() throws {
+    @MainActor func testSkipIntegDemo() async throws {
         XCTAssertEqual(SkipIntegDemoModule().stringFunction(), "Hello, World!")
     }
 }

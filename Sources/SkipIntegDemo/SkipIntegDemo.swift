@@ -1,5 +1,6 @@
 import Foundation
 
+@MainActor
 public class SkipIntegDemoModule {
     public init() {
     }
@@ -8,3 +9,6 @@ public class SkipIntegDemoModule {
         "Hello, World!"
     }
 }
+
+//@MainActor
+//public protocol WebSocketManagerDelegate: AnyObject, Sendable {
