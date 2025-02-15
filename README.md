@@ -7,6 +7,9 @@ as part of Skip's [native](https://skip.tools/docs/modes/) mode.
 It is meant as a showcase of how bridging is generated and
 used, both at build time and runtime.
 
+> [!WARNING]  
+> These internal details about how bridging is generated is subject to change, so you should not rely on any specific signatures, either on the Swift/C side or on the Kotlin/Java side.
+
 ## Examples
 
 ### Function
