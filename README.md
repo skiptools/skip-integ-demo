@@ -8,7 +8,7 @@ It is meant as a showcase of how bridging is generated and
 used, both at build time and runtime.
 
 > [!WARNING]  
-> These internal details about how bridging is generated is subject to change, so you should not rely on any specific signatures, either on the Swift/C side or on the Kotlin/Java side.
+> These internal details about how bridging is generated are subject to change between SkipFuse releases, so you should not rely on any specific signatures, either on the Swift/C side or on the Kotlin/Java side.
 
 ## Examples
 
@@ -414,4 +414,3 @@ Kotlin JUnit tests in the Robolectric Android simulation environment.
 
 Parity testing can be performed with `skip test`,
 which will output a table of the test results for both platforms.
-# skip-integ-demo
