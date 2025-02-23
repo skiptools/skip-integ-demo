@@ -1,7 +1,7 @@
 import XCTest
 import OSLog
 import Foundation
-import SkipBridgeKt
+import SkipBridge
 import SkipIntegDemo
 
 let logger: Logger = Logger(subsystem: "SkipIntegDemo", category: "Tests")
