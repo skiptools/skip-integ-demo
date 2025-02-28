@@ -28,3 +28,8 @@ public struct EquatableStruct : Equatable {
         self.string = string
     }
 }
+
+public enum CityType {
+    case cool(Float)
+    case warm(Int)
+}
