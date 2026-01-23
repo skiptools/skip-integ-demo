@@ -1,8 +1,8 @@
 # Skip Native Integration Demo
 
 This project demonstrates bridging between Swift and Kotlin 
-using the [SkipFuse](https://skip.tools/docs/modules/skip-fuse/) framework,
-as part of Skip's [native](https://skip.tools/docs/modes/) mode.
+using the [SkipFuse](https://skip.dev/docs/modules/skip-fuse/) framework,
+as part of Skip's [native](https://skip.dev/docs/modes/) mode.
 
 It is meant as a showcase of how bridging is generated and
 used, both at build time and runtime.
@@ -398,7 +398,7 @@ extension EquatableStruct: BridgedToKotlin {
 ## Building
 
 This project is a Swift Package Manager module that uses the
-[Skip](https://skip.tools) plugin to transpile Swift into Kotlin.
+[Skip](https://skip.dev) plugin to transpile Swift into Kotlin.
 
 Building the module requires that Skip be installed using 
 [Homebrew](https://brew.sh) with `brew install skiptools/skip/skip`.
