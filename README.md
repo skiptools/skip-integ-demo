@@ -398,7 +398,7 @@ extension EquatableStruct: BridgedToKotlin {
 ## Building
 
 This project is a Swift Package Manager module that uses the
-[Skip](https://skip.tools) plugin to transpile Swift into Kotlin.
+[Skip](https://skip.dev) plugin to build the package for both iOS and Android.
 
 Building the module requires that Skip be installed using 
 [Homebrew](https://brew.sh) with `brew install skiptools/skip/skip`.
